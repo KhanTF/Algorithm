@@ -25,9 +25,11 @@ class MergeSort : AbstractSort() {
         return merge(sortList1, sortList2, comparator)
     }
 
-    private fun <T> merge(list1: MutableList<T>,
-                          list2: MutableList<T>,
-                          comparator: Comparator<T>): MutableList<T> {
+    private fun <T> merge(
+        list1: MutableList<T>,
+        list2: MutableList<T>,
+        comparator: Comparator<T>
+    ): MutableList<T> {
         val tmpList = ArrayList<T>(list1.size + list2.size)
         var countFirst = 0
         var countSecond = 0
