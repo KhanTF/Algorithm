@@ -1,9 +1,8 @@
 package sorts
 
-import kotlinx.coroutines.*
-import java.util.*
-import kotlin.coroutines.resume
-import kotlin.coroutines.suspendCoroutine
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.runBlocking
 
 class CoroutineMergeSort : AbstractSort() {
 

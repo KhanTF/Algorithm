@@ -1,7 +1,5 @@
 package sorts
 
-import java.util.*
-
 abstract class AbstractSort : Sort {
 
     final override fun <T : Comparable<T>> sort(list: MutableList<T>) {

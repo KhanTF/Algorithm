@@ -1,10 +1,5 @@
 package sorts
 
-import java.util.concurrent.CountDownLatch
-import java.util.concurrent.CyclicBarrier
-import java.util.concurrent.Executors
-import kotlin.math.min
-
 class MergeSort : AbstractSort() {
 
     override fun <T> sort(list: MutableList<T>, comparator: java.util.Comparator<T>) {

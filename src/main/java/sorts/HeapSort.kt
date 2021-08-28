@@ -1,7 +1,6 @@
 package sorts
 
 import utils.swap
-import java.util.Comparator
 
 class HeapSort : AbstractSort() {
 

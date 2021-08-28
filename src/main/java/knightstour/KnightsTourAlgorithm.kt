@@ -1,8 +1,6 @@
 package knightstour
 
 import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashSet
 
 class KnightsTourAlgorithm(private val size: Int) {
 
